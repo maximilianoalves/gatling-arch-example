@@ -21,4 +21,5 @@ class FluxoCompletoSimulation extends Simulation {
     .exec(Usuarios.buscarTodosUsuarios)
     .inject(rampUsers(virtualUsers) during (time seconds))
 
+  setUp(scenarioFluxoCompleto).protocols(httpProtocol)
 }
