@@ -4,7 +4,8 @@ object Header {
 
   val defaultHeader = Map(
     "Content-Type" -> "application/json",
-    "accept" -> "application/json"
+    "accept" -> "application/json",
+    "monitor" -> "false"
   )
 
 }
